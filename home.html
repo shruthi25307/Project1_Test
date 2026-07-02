@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>STUDENT COURSE REGISTRATION PORTAL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="logo-text">
+      <h4>ABC TRAINING INSTITUTE</h4>
+    </div>
+    <div class="nav-center">
+      <link href="home.html">Home</link>
+      <link href="#">Courses</link>
+      <link href="#">Contact</link>
+    </div>
+  </nav>
+  <br><br>
+  <article class="content">
+    <h1 id="welcome">Welcome to the Student Course Registration Portal</h1>
+    <p id="welcome">Register for courses and manage your academic journey with ease.</p>
+  </article>
+  <form>
+    <h2 align="center" id="details">Registration Form</h2>
+    Name : <br><input id="name" type="text" name="fullName" placeholder="Full Name" required><br>
+    Email: <br><input id="email" type="email" name="email" placeholder="Email" required><br>
+    Mobile Number: <br><input id="mobile" type="tel" name="mobile" placeholder="Mobile Number" required><br>
+    Gender: <br>
+    <input id="male" type="radio" name="gender" value="male">
+    <label for="male"> Male</label>
+    <input id="female" type="radio" name="gender" value="female">
+    <label for="female"> Female</label>
+    <select id="department" name="department" required>Department: <br>
+      <option value="">Select Department</option>
+      <option value="computerScience">Computer Science Engineering</option>
+      <option value="informationTechnology">Information Technology</option>
+      <option value="electronics">Electronics and Communication Engineering</option>
+      <option value="electronics">Electronics and Electrical Engineering</option>
+      <option value="mechanical">Mechanical Engineering</option>
+      <option value="civil">Civil Engineering</option>
+    </select><br>Course: <br>
+    <select id="course" name="course" required>
+      <option value="">Select Course</option>
+      <option value="java">Java Programming</option>
+      <option value="python">Python Programming</option>
+      <option value="webDevelopment">Web Development</option>
+      <option value="dataScience">Data Science</option>
+      <option value="cyberSecurity">Cyber Security</option>
+      <option value="machineLearning">Machine Learning</option>
+    </select><br>Skills: <br>
+    <input id="java" type="checkbox" name="skills" value="java">
+    <label for="java"> Java</label>
+    <input id="python" type="checkbox" name="skills" value="python">
+    <label for="python"> Python</label>
+    <input id="webDevelopment" type="checkbox" name="skills" value="webDevelopment">
+    <label for="webDevelopment"> Web Development</label>
+    <input id="dataScience" type="checkbox" name="skills" value="dataScience">
+    <label for="dataScience"> Data Science</label>
+    <input id="cyberSecurity" type="checkbox" name="skills" value="cyberSecurity">
+    <label for="cyberSecurity"> Cyber Security</label>
+    <input id="machineLearning" type="checkbox" name="skills" value="machineLearning">
+    <label for="machineLearning"> Machine Learning</label><br>
+    Date of Birth: <br><input id="dob" type="date" name="dob" required><br>
+    Address: <textarea id="address" name="address" placeholder="Address" required></textarea><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form><br>
+  <p>Registered students: </p>
+  <p> ----------------------------------------- </p>  
+  <p>Name Course Department</p>
+  <p> ----------------------------------------- </p>
+  <p> Arun Web Dev CSE </p>
+  <p> Priya Python IT </p>
+  <p> -----------------------------------------</p>
+</body>
+<footer class="footer">
+  <hr>2026 All rights reserved ABC Training Institute
+  <hr>
+</footer>
+
+</html>
